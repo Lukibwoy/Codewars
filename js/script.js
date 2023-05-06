@@ -112,3 +112,36 @@ function areYouPlayingBanjo(name) {
     }
 
     
+
+// Introduction
+
+// The first century spans from the year 1 up to and including the year 100, the second century - from the year 101 up to and including the year 200, etc.
+// Task
+
+// Given a year, return the century it is in.
+// Examples
+
+// 1705 --> 18
+// 1900 --> 19
+// 1601 --> 17
+// 2000 --> 20
+
+function century(year) {
+	return Math.ceil(year/100)
+	}
+
+	console.log(century(1023));
+	
+
+	// Find Maximum and Minimum Values of a List
+	// Your task is to make two functions ( max and min, or maximum and minimum, etc., depending on the language ) that receive a list of integers as input, and return the largest and lowest number in that list, respectively.
+	// Examples (Input -> Output)
+
+	const min = (list) => {
+		return Math.min(...list)
+	}
+	
+	const max = (list) => {
+		
+	   return Math.max(...list)
+	}	
