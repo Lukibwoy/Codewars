@@ -21,5 +21,20 @@ function sum(numbers){
     return res
     }
     
+
+
+
+    // Calculate average
     
-    
+    // Write a function which calculates the average of the numbers in a given list.
+
+// Note: Empty arrays should return 0.
+
+ 
+    function findAverage(array) {
+        if(array.length ===0) return 0;
+          
+          return array.reduce((acc,curr)=>acc+curr, 0)/array.length
+        }
+        
+        findAverage([1,2,3,4,5])    
