@@ -10,12 +10,13 @@
 // Don't change the order of the elements that are left.
 
 function removeSmallest(array) {
-    const minValue = Math.min(...array);
-      const index = array.indexOf(minValue);
-      
-      if (index > -1) {
-        array.splice(index, 1);
-      }
-      
-      return array;
-    }
+	const minValue = Math.min(...array)
+	const index = array.indexOf(minValue)
+
+	if (index > -1) {
+		array.splice(index, 1)
+	}
+
+	return array
+}
+
