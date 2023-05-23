@@ -7,7 +7,7 @@
 // "scissors", "paper" --> "Player 1 won!"
 // "scissors", "rock" --> "Player 2 won!"
 // "paper", "paper" --> "Draw!"
-
+//
 const rps = (p1, p2) => {
 	if (p1 === 'scissors' && p2 === 'paper') {
 		return 'Player 1 won!'
@@ -187,18 +187,16 @@ function invert(array) {
 	return newArr
 }
 
-
-
-const arr = [1,2,3,4]
+const arr = [1, 2, 3, 4]
 
 function sumArray(array) {
-	if(array.length<=2){
-	  return 0
-	}else{
-	const minValue = Math.min(...array);
-	const maxValue = Math.max(...array);
-	return minValue + maxValue
+	if (array.length <= 2) {
+		return 0
+	} else {
+		const minValue = Math.min(...array)
+		const maxValue = Math.max(...array)
+		return minValue + maxValue
 	}
-	}
-	
+}
+
 console.log(sumArray(arr))
